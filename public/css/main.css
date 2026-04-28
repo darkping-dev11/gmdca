@@ -2,12 +2,12 @@
     /* Forced Dark Scheme */
     color-scheme: dark;
 
-    --color-background: #eda19a;
+    --color-background: #eac3c0;
     --color-on-background: #f0f0f0;
     --color-background-hover: #1a1a1a;
     --color-on-background-hover: #f0f0f0;
 
-    --color-primary: #ef2310;
+    --color-primary: #f20909;
     --color-primary-level: #f99c86;
     --color-primary-light: #3d241e;
     --color-primary-hover: #e8d80a;
