@@ -18,11 +18,11 @@ router.beforeEach((to, from, next) => {
     let title = "TPL | The Piss List";
 
     if (to.path === '/') title = "TPL | The Piss List";
-    else if (to.path === '/leaderboard') title = "Leaderboard | TPL";
-    else if (to.path === '/roulette') title = "Roulette | TPL";
-    else if (to.path === '/admin') title = "Admin Panel | TPL";
-    else if (to.path === '/manage') title = "Management Panel | TPL";
-    else if (to.path === '/packs') title = "Packs | TPL";
+    else if (to.path === '/leaderboard') title = "Leaderboard";
+    else if (to.path === '/roulette') title = "Roulette";
+    else if (to.path === '/admin') title = "Admin Panel";
+    else if (to.path === '/manage') title = "Management Panel";
+    else if (to.path === '/packs') title = "Packs";
 
     document.title = title;
     next();
