@@ -17,7 +17,7 @@ const router = VueRouter.createRouter({
 router.beforeEach((to, from, next) => {
     let title = "TPL | The Piss List";
 
-    if (to.path === '/') title = "TPL | The Piss List";
+    if (to.path === '/') title = "Canada Demon List";
     else if (to.path === '/leaderboard') title = "Leaderboard";
     else if (to.path === '/roulette') title = "Roulette";
     else if (to.path === '/admin') title = "Admin Panel";
